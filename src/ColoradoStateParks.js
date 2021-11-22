@@ -6,15 +6,16 @@ import * as RMFunctions from "./parks/RockyMountain";
 
 
 function ColoradoStateParks() {
-  // howManyParks(); // => "42 parks!"
+  HowManyParks(); // => "42 parks!"
+  console.log('TREES', parkTrees);
+  parkWildlife();
+  console.log("RM FUNCTIONS", RMFunctions);
 
   // return <h1>Colorado State Parks!</h1>;
   return (
     <div>
       <h1>Colorado State Parks!</h1>
-      {/* <HowManyParks /> */}
       <MesaVerdePark />
-      
     </div>
   )
 }
